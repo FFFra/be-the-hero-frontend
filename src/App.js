@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import Login from "./pages/Login";
+
+import "./global.css";
 
 function App() {
   return (
     <div>
-      <header>
-        <p>hello</p>
-      </header>
+      <Login />
     </div>
   );
 }
